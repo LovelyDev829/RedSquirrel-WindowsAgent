@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.OperatingSystem2</name>
+    </assembly>
+    <members>
+        <member name="T:System.OperatingSystem2">
+            <summary>
+            表示有关操作系统的信息，如版本和平台标识符。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsAndroid">
+            <summary>
+            指示当前应用程序是否正在 Android 上运行。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsRunningOnWSA">
+            <summary>
+            指示当前应用程序是否正在 Windows Subsystem for Android™️ 上运行。
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystem2.IsAndroidVersionAtLeast(System.Int32)">
+            <summary>
+            检查 Android 版本是否大于或等于指定版本。
+            </summary>
+            <param name="sdkInt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.OperatingSystem2.IsAndroidVersionAtLeast(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            检查 Android 版本是否大于或等于指定版本。
+            </summary>
+            <param name="major"></param>
+            <param name="minor"></param>
+            <param name="build"></param>
+            <param name="revision"></param>
+            <returns></returns>
+        </member>
+        <member name="T:System.OperatingSystem2.Application">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:System.OperatingSystem2.Application.TypeNames">
+            <summary>
+            Application TypeNames
+            </summary>
+        </member>
+        <member name="F:System.OperatingSystem2.Application.TypeNames.Avalonia">
+            <summary>
+            https://github.com/AvaloniaUI/Avalonia
+            </summary>
+        </member>
+        <member name="F:System.OperatingSystem2.Application.TypeNames.XamarinForms">
+            <summary>
+            https://github.com/xamarin/Xamarin.Forms
+            </summary>
+        </member>
+        <member name="F:System.OperatingSystem2.Application.TypeNames.Maui">
+            <summary>
+            https://github.com/dotnet/maui
+            </summary>
+        </member>
+        <member name="F:System.OperatingSystem2.Application.TypeNames.WindowsForms">
+            <summary>
+            https://github.com/dotnet/winforms
+            <para></para>
+            https://github.com/mono/winforms
+            </summary>
+        </member>
+        <member name="F:System.OperatingSystem2.Application.TypeNames.WPF">
+            <summary>
+            https://github.com/dotnet/wpf
+            </summary>
+        </member>
+        <member name="F:System.OperatingSystem2.Application.TypeNames.Uno">
+            <summary>
+            https://github.com/unoplatform/uno
+            </summary>
+        </member>
+        <member name="T:System.OperatingSystem2.Application.Types">
+            <summary>
+            Application Types
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.Types.Avalonia">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.Avalonia"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.Types.XamarinForms">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.XamarinForms"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.Types.Maui">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.Maui"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.Types.WindowsForms">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.WindowsForms"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.Types.WPF">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.WPF"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.Types.Uno">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.Uno"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.UseAvalonia">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.Avalonia"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.UseXamarinForms">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.XamarinForms"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.UseMaui">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.Maui"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.UseWindowsForms">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.WindowsForms"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.UseWPF">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.WPF"/>
+        </member>
+        <member name="P:System.OperatingSystem2.Application.UseUno">
+            <inheritdoc cref="F:System.OperatingSystem2.Application.TypeNames.Uno"/>
+        </member>
+        <member name="P:System.OperatingSystem2.IsBrowser">
+            <summary>
+            指示当前应用程序是否在浏览器中作为 WASM 运行。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsRunningOnMono">
+            <summary>
+            当前是否使用 Mono 运行时。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsDesktop">
+            <summary>
+            指示当前应用程序是否正在 Desktop 上运行。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsOnlySupportedStore">
+            <summary>
+            指示当前应用程序是否正在仅支持应用商店的平台上运行。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.Version">
+            <summary>
+            获取当前系统版本号。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsFreeBSD">
+            <summary>
+            指示当前应用程序是否正在 FreeBSD 上运行。
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystem2.IsFreeBSDVersionAtLeast(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            检查 FreeBSD 版本是否大于或等于指定版本。
+            </summary>
+            <param name="major"></param>
+            <param name="minor"></param>
+            <param name="build"></param>
+            <param name="revision"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.OperatingSystem2.IsIOS">
+            <summary>
+            指示当前应用程序是否正在 iOS 上运行。
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystem2.IsIOSVersionAtLeast(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            检查 iOS 版本是否大于或等于指定版本。
+            </summary>
+            <param name="major"></param>
+            <param name="minor"></param>
+            <param name="build"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.OperatingSystem2.IsLinux">
+            <summary>
+            指示当前应用程序是否正在 Linux 上运行。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsMacOS">
+            <summary>
+            指示当前应用程序是否正在 macOS 上运行。
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystem2.IsMacOSVersionAtLeast(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            检查 macOS 版本是否大于或等于指定版本。
+            </summary>
+            <param name="major"></param>
+            <param name="minor"></param>
+            <param name="build"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.OperatingSystem2.IsTvOS">
+            <summary>
+            指示当前应用程序是否正在 tvOS 上运行。
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystem2.IsTvOSVersionAtLeast(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            检查 tvOS 版本是否大于或等于指定版本。
+            </summary>
+            <param name="major"></param>
+            <param name="minor"></param>
+            <param name="build"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.OperatingSystem2.IsWatchOS">
+            <summary>
+            指示当前应用程序是否正在 watchOS 上运行。
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystem2.IsWatchOSVersionAtLeast(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            检查 watchOS 版本是否大于或等于指定版本。
+            </summary>
+            <param name="major"></param>
+            <param name="minor"></param>
+            <param name="build"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.OperatingSystem2.IsWindows">
+            <summary>
+            指示当前应用程序是否正在 Windows 上运行。
+            </summary>
+        </member>
+        <member name="M:System.OperatingSystem2.IsWindowsVersionAtLeast(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            检查 Windows 版本是否大于或等于指定版本。
+            </summary>
+            <param name="major"></param>
+            <param name="minor"></param>
+            <param name="build"></param>
+            <param name="revision"></param>
+            <returns></returns>
+        </member>
+        <member name="P:System.OperatingSystem2.IsWindows7">
+            <summary>
+            指示当前应用程序是否正在 Windows 7(NT 6.1) 上运行。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsWindowsServer">
+            <summary>
+            指示当前应用程序是否正在 Windows Server 上运行。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsWindows10AtLeast">
+            <summary>
+            指示当前应用程序是否正在 Windows 10 或更高版本上运行。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsWindows11AtLeast">
+            <summary>
+            指示当前应用程序是否正在 Windows 11 或更高版本上运行。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsRunningAsUwp">
+            <summary>
+            指示当前应用程序是否正在 UWP 上运行。
+            </summary>
+        </member>
+        <member name="P:System.OperatingSystem2.IsRunningOnXbox">
+            <summary>
+            指示当前应用程序是否正在 Xbox 上运行。
+            </summary>
+        </member>
+        <member name="T:System.Runtime.Versioning.SupportedOSPlatformGuardAttribute">
+             <summary>
+             Annotates a custom guard field, property or method with a supported platform name and optional version.
+             Multiple attributes can be applied to indicate guard for multiple supported platforms.
+             </summary>
+             <remarks>
+             Callers can apply a <see cref="T:System.Runtime.Versioning.SupportedOSPlatformGuardAttribute" /> to a field, property or method
+             and use that field, property or method in a conditional or assert statements in order to safely call platform specific APIs.
+            
+             The type of the field or property should be boolean, the method return type should be boolean in order to be used as platform guard.
+             </remarks>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,6 @@
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000$\Project\WindowsAgent\temp_installing\bin\Debug\temp_installing.exe.config
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000$\Project\WindowsAgent\temp_installing\bin\Debug\temp_installing.exe
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000$\Project\WindowsAgent\temp_installing\bin\Debug\temp_installing.pdb
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000$\Project\WindowsAgent\temp_installing\obj\Debug\temp_installing.csproj.CoreCompileInputs.cache
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000$\Project\WindowsAgent\temp_installing\obj\Debug\temp_installing.exe
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000$\Project\WindowsAgent\temp_installing\obj\Debug\temp_installing.pdb

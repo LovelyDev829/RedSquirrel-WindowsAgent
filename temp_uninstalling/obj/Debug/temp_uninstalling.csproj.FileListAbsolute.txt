@@ -1,0 +1,7 @@
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000USDplus\Project\WindowsAgent\temp_uninstalling\bin\Debug\temp_uninstalling.exe.config
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000USDplus\Project\WindowsAgent\temp_uninstalling\bin\Debug\temp_uninstalling.exe
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000USDplus\Project\WindowsAgent\temp_uninstalling\bin\Debug\temp_uninstalling.pdb
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000USDplus\Project\WindowsAgent\temp_uninstalling\obj\Debug\temp_uninstalling.csproj.AssemblyReference.cache
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000USDplus\Project\WindowsAgent\temp_uninstalling\obj\Debug\temp_uninstalling.csproj.CoreCompileInputs.cache
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000USDplus\Project\WindowsAgent\temp_uninstalling\obj\Debug\temp_uninstalling.exe
+E:\ME\NET_WORK\WorkinG\Deldric_agent-agentless_2000USDplus\Project\WindowsAgent\temp_uninstalling\obj\Debug\temp_uninstalling.pdb

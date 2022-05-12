@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsAgent", "WindowsAgent\WindowsAgent.csproj", "{19F4D0D9-778F-4916-8276-F276B91100CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentUI", "AgentUI\AgentUI.csproj", "{312F1EA3-79F0-41AD-B38E-09750F9137F1}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AgentSetup", "AgentSetup\AgentSetup.vdproj", "{E22D2A13-F6B5-416C-A510-D71026738E61}"
+	ProjectSection(ProjectDependencies) = postProject
+		{312F1EA3-79F0-41AD-B38E-09750F9137F1} = {312F1EA3-79F0-41AD-B38E-09750F9137F1}
+		{19F4D0D9-778F-4916-8276-F276B91100CC} = {19F4D0D9-778F-4916-8276-F276B91100CC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "temp_installing", "temp_installing\temp_installing.csproj", "{73684661-9054-45B7-B76F-810582664E12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19F4D0D9-778F-4916-8276-F276B91100CC} = {19F4D0D9-778F-4916-8276-F276B91100CC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "temp_uninstalling", "temp_uninstalling\temp_uninstalling.csproj", "{3E406813-D961-4FDE-AF62-50830EC72A3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19F4D0D9-778F-4916-8276-F276B91100CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F4D0D9-778F-4916-8276-F276B91100CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F4D0D9-778F-4916-8276-F276B91100CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F4D0D9-778F-4916-8276-F276B91100CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312F1EA3-79F0-41AD-B38E-09750F9137F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312F1EA3-79F0-41AD-B38E-09750F9137F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312F1EA3-79F0-41AD-B38E-09750F9137F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312F1EA3-79F0-41AD-B38E-09750F9137F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22D2A13-F6B5-416C-A510-D71026738E61}.Debug|Any CPU.ActiveCfg = Debug
+		{E22D2A13-F6B5-416C-A510-D71026738E61}.Release|Any CPU.ActiveCfg = Release
+		{73684661-9054-45B7-B76F-810582664E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73684661-9054-45B7-B76F-810582664E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73684661-9054-45B7-B76F-810582664E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73684661-9054-45B7-B76F-810582664E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E406813-D961-4FDE-AF62-50830EC72A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E406813-D961-4FDE-AF62-50830EC72A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E406813-D961-4FDE-AF62-50830EC72A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E406813-D961-4FDE-AF62-50830EC72A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {481630B7-DF53-4C52-8BE2-A3650DA09CED}
+	EndGlobalSection
+EndGlobal
